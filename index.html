@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Rolagens do USM</title>
+</head>
+<body>
+    <div id="geral">
+
+        <div id="infos">
+            <div id="status">
+                <div id="nomeDiv">
+                <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Ex: Joãozinho#069420" name="nome" id="nome">
+                </div>
+                    <div id="vida">
+                        <label for="vida">Vida:</label>
+                            <div class="ladinho">
+                            <input type="number" name="qtdVida" id="qtdVida">
+                            <p id="vidaMax">/30</p>
+                            </div>
+                    </div>
+                    <div id="mana">
+                        <label for="mana">Mana:</label>
+                            <div class="ladinho">
+                            <input type="number" name="qtdMana" id="qtdMana">
+                            <p id="manaMax">/60</p>
+                            </div>
+                    </div>
+            </div>
+            <div id="atributos">
+                <div id="left">
+                <label for="for">Força:</label>
+                    <input name="for" type="number" id="for" type="text">
+
+                <label for="con">Constituição:</label>
+                    <input name="con" type="number" id="con" type="text">
+
+                <label for="dex">Destreza:</label>
+                    <input name="dex" type="number" id="dex" type="text">
+
+                <label for="atirar">Atirar:</label>
+                    <input name="atirar" type="number" id="atirar" type="text">
+                    
+                <label for="sentir">Percepção:</label>
+                    <input name="sentir" type="number" id="sentir" type="text">
+                </div>
+                <div id="right">
+                <label for="cura">Primeiros-Socorros:</label>
+                    <input name="cura" type="number" id="cura" type="text">
+
+                <label for="tacar">Arremessar:</label>
+                    <input name="tacar" type="number" id="tacar" type="text">
+
+                <label for="int">Inteligência:</label>
+                    <input name="int" type="number" id="int" type="text">
+
+                <label for="labia">Lábia:</label>
+                    <input name="labia" type="number" id="labia" type="text">
+
+                <label for="tools">Ferramentas:</label>
+                    <input name="tools" type="number" id="tools" type="text">
+                </div>
+            </div>
+            <button onclick="salvarInfos()" id="salvaAtributos">Salvar</button>
+        </div>
+
+        <div id="roladas">
+            <div id="testes">
+
+            <div id="cima">
+                <button class="botao">Força</button>
+
+                <button class="botao">Constituição</button>
+
+                <button class="botao">Destreza</button>
+
+                <button class="botao">Atirar</button>
+
+                <button class="botao">Percepção</button>
+            </div>
+            <div id="baixo">
+                <button class="botao">Primeiros-Socorros</button>
+
+                <button class="botao">Arremessar</button>
+
+                <button class="botao">Inteligência</button>
+
+                <button class="botao">Lábia</button>
+
+                <button class="botao">Ferramentas</button>
+            </div>
+            </div>
+            <div id="resultado">
+                <p id="numero">20</p>
+                <p id="sucesso">Extremo</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
