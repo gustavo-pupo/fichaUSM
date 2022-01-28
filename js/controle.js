@@ -64,7 +64,7 @@ function salvarInfos(){
     localStorage.setItem("labia", labia.value);
     localStorage.setItem("tools", tools.value);
 
-    //location.reload();
+    location.reload();
 }
 
 function d20(min, max) {
