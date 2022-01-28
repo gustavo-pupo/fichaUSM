@@ -161,7 +161,7 @@ span#teste{
     text-align: center;
 }
 
-@media (max-width: 414px){
+@media (max-width: 600px){
 /* ids */
     div#geral{
         width: 98%;
