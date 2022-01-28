@@ -157,6 +157,10 @@ span#teste{
     text-shadow: black 0 0 0.5rem;
 }
 
+#copy{
+    text-align: right;
+}
+
 @media (max-width: 414px){
 /* ids */
     div#geral{
