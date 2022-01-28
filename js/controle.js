@@ -77,6 +77,7 @@ function testeAtributos(dado, atributo){
     dado = d20();
     numero.innerHTML = dado;
     teste.innerHTML = atributo.name;
+    console.log(dado)
     if(atributo.value == 0){
         if(dado == 1){
         sucesso.innerHTML = "Desastre";
